@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+ .Img_Carosal_Height {
+        min-height: 500px;
+        height: 70vh;
+    }
+    
+    .bg-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent !important;
+    background: none !important;
+    margin: 0;
+    z-index: 100;
+    height: auto !important;
+    overflow-y: visible !important;
+    text-rendering: optimizeLegibility;
+}
+
+ .header-title {
+        /*font-family: 'Fredericka the Great', cursive;*/
+        font-family: 'Gideon Roman', cursive;
+        color: #000;
+        font-size: 70px;
+        letter-spacing: 1px;
+        text-shadow: 3px 1px rgb(0 0 0 / 39%) !important;
+    }
+
+    .Sub_Header_Title {
+        letter-spacing: 1px;
+        /*font-family: 'Cabin Sketch', cursive;*/
+        font-family: 'Amiri', serif;
+        text-shadow: 3px 1px rgb(0 0 0 / 39%) !important;
+        font-size: 40px;
+    }
+    
+    .heading{
+    text-align : center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: 21px "Lato", sans-serif;
+    color: #111;
+    }
+    
+    /*EMPTY LINE*/
+    .New_Line {
+    padding-top: 20px;
+}
+/*EMPTY LINE*/
+
+/* p{
+	font-family: 'Montserrat', sans-serif;
+	font-size : 16px;
+	letter-spacing: 2px;
+} */
+
+.bgimg {
+    background-image: url(https://img.freepik.com/free-vector/flat-illustration-stock-trader-working-computer-with-graphs-man-investor-using-pc-analyzing-charts-diagrams-exchange-market-finances-cryptocurrency-investing_74855-20567.jpg?t=st=1646116508~exp=1646117108~hmac=34800af521e2c044df98974ee7ea03b05ce54572dccf1461d5a7d586333fe065&w=740);
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% auto; */
+}
+
+
+/*Nav CSS*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+	.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+	{
+	font-size : 15px !important;
+	letter-spacing: 2px;
+}
+/*Nav CSS*/
